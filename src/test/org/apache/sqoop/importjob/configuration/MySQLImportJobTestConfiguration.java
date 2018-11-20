@@ -21,7 +21,7 @@ package org.apache.sqoop.importjob.configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MySQLImportJobTestConfiguration implements ImportJobTestConfiguration, AvroTestConfiguration, ParquetTestConfiguration {
+public class MysqlImportJobTestConfiguration implements ImportJobTestConfiguration, AvroTestConfiguration, ParquetTestConfiguration {
 
   @Override
   public String[] getTypes() {
